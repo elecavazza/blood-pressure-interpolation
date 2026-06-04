@@ -1,0 +1,87 @@
+Introduction/Challenge:
+The war against gravity is an ongoing battle in which your body is constantly fighting to maintain cerebral blood flow. Sustaining adequate blood pressures is key to winning this war. Undertaken in several ways, ranging from elevate synaptic flow of neurotransmitters in the autonomic nervous system, to simple leg manoeuvres which you perform when walking. Maintaining adequate blood pressure is vital to homeostasis. The most common instrument used to measure blood pressure is the sphygmomanometer, or the blood pressure cuff. A sphygmomanometer comprises of an inflatable cuff used to constrain blood flow and a mercury manometer to measure pressure. Typically used conjunction with a stethoscope, the sphygmomanometer, occludes blood flow when inflated, and when deflated, lets the blood flow freely. During occlusion a thumping sound occurs as the vessel collapses. When the pressure is released from the sphygmomanometer, and blood flow returns, a tapping sound emanates from the vein. These two “Korotkoff” sounds, represent what is commonly referred to as systolic and diastolic blood pressure, and hence the reason Blood pressure is always recorded as two numbers - i.e., 120/80. While sphygmomanometers are regarded as the gold standard instruments for measuring blood pressure, they cannot be used continuously for fear of restricting blood flow. Consequently, the development of an applicable model for non-invasive monitoring of blood pressure for a more comprehensive array of patients would be beneficial. This project requires you to develop a non-intrusive means for continuously interpolating blood pressure. Your proposed model should revolve around a term called pulse transient time. The model holds an inverse relationship between blood pressure and the time between the peak of the electrical activity in the heart and the peak volume of blood in your left fingers. 
+
+Abstract:
+This assignment is entirely desk based, organised around a specific machine learning task. It is intended to give students an opportunity to integrate and expand their knowledge in several different core areas: MatLab, Machine learning, algorithm development, software development and AI. This is achieved by designing, building, debugging, and demonstrating a complete functional predictive model to continuous interpolate blood pressure. 
+
+The objective is to design and prototype a machine learning framework to predict one’s blood pressure. The dataset containing 11 subjects ECG (QRST Function) and PPG signals, with blood pressure measurements taken in the supine, orthostatic and fowler positions. Addition marks will be provided if the framework can identify both systolic and diastolic blood pressure or a biomechanical reason as to why only one measurement can be predicted. 
+
+Objective:
+A set of specified objectives that we expect to be achieved, need to be reported on by the students. There are 5 objectives covering the semester. The objectives are:
+Target 1: Reading ECG PPG and BP data and pre-processing to workable level (Data Washing). 
+Target 2: Identify peak value autonomously and the transient time between each peak. 
+Target 3: Develop a predictive model based on the dataset. 
+Target 4: Test and validate the data accordingly. 
+Target 5: Present your findings and demonstrate ability of the model to predict the blood pressure of a subject outside of the data given. 
+
+Progress report is submitted to the supervisor at the end of each target period. A progress report and final report should be submitted as detailed below. The recommended length for the progress report is 1000 words and the final report 5000 words. This should include diagrams, schematics, flow charts, figures and photographs where appropriate. The code for your algorithm should be included in an Appendix. The overall format of the report should include the following major sections:
+
+Marking:
+Objectives (10%)
+Achieving each objective is worth 2% to the student. The 2% is awarded based on the student demonstrating their framework achieving the stated objective before the end of the final laboratory. Marks will not be awarded for students that achieve the objective later.
+
+Progress reports (10%)
+Each student is required to submit a short progress report at the end of each target period. Miss a submission miss the marks. Each progress report is worth 2.5%
+
+Demonstration marking scheme (40%)
+A fiendishly complex scoring scheme will be devised by the lecture. It might even be published in advance. However, you can assume that marks will be generally awarded for the framework that can best handle biometric data not included in the dataset. Bonus marks will be awarded for model novelty and its ability to do what it meant to or a valid biomechanical reason why it can’t. 
+
+Report guidelines and marking scheme (40%)
+1. Abstract (2%)
+The abstract is a self-contained, short, and powerful statement that describes a larger work and provide any findings the student may have come across. Try for one sentence each on motive, method, key results, conclusions. Do not exceed 3 sentences on anyone and keep abstract below 150 words.
+
+2. Introduction (3%)
+This should briefly outline the project as it was originally presented to you. This should encapsulate your understanding of the project and its objectives and not just a re-statement of notes! Expand on your motivations list the challenges and detail the contribution of the research.
+
+3. Lit Review and related work (3%)
+This should provide references to any books, articles etc., which you found useful in carrying out the project. The information provided should be sufficient for any interested reader to locate a copy of the original document. References should be to conference papers, journal articles, books and if required online materials (N.B. include a URL and the date accessed and use IEEE referencing protocols). 
+
+4. Programme functionality (18%)
+As already noted, the programme should be included as an appendix to the report. Criteria here will include such things as whether the code is appropriate, intelligible, consistently indented, uses relevant variable and function names, etc. Broadly speaking a verbal explanation of the programme, the student developed.  
+
+6. Results (6%)
+This should be an easy section to write. Report your results simply, without opinion or interpretation at this stage. The results can be anecdotal or empirical, can come in the form of an image or a table. Present data in a form other people can use. Give emphasis in the text to the most important aspects of the tables, graphs or figures. Don’t mix Results with Discussion. Results are facts and facts alone. 
+
+7. Discussion (4%)
+Here you are seeking to extract principles, relationships, or generalisations from the anecdotal or empirical evidence. Sometimes the results speak for themselves but that doesn’t mean they don’t need to be discussed. If something didn’t work the way it was meant to explain why this is the case. 
+
+8. Conclusions and Recommendations (2%)
+Draw together the most important results and their consequences. List any reservations or limitations. The reader scanning your paper will read the Abstract and the Conclusions, glance at the Figures and move on. Do not duplicate the Abstract as the Conclusions or vice versa. The Abstract is an overview of the entire paper. The Conclusions are a summing up of the advances in knowledge that have emerged from it. It is acceptable to present conclusions as a bullet-pointed list.
+
+9. Presentation (2%)
+The final 2% of the marks will be awarded for the overall presentation of the report. The presentation must be professional--i.e., demonstrating a satisfactory standard of grammar, punctuation, spelling, etc. Avoid excessive informality, such as slang words etc. Ensure that any technical terms you use are appropriate to the context and make sure you reference correctly. Reference using the IEEE ref protocols. 
+
+Resources:
+Guide to install MatLab 
+https://www.itsligo.ie/wp-content/uploads/2021/10/Campus-Wide-License-and-MATLAB-Portal-for-ITS-Website-Copy.pdf 
+
+A guide to MatLab
+https://www.youtube.com/watch?v=NSSTkkKRabI&ab_channel=DerekBanas 
+https://ch.mathworks.com/videos/computer-vision-with-matlab-93068.html
+
+A guide to regression using MatLab
+https://uk.mathworks.com/help/stats/regression-and-anova.html 
+
+A guide to regression analysis 
+https://blog.minitab.com/en/adventures-in-statistics-2/regression-analysis-tutorial-and-examples 
+
+Manual Blood Pressure Measurement
+https://pressbooks.library.torontomu.ca/vitalsign/chapter/manual-blood-pressure-measurement/ 
+
+Korotkoff sounds 
+https://www.frontiersin.org/articles/10.3389/fcvm.2022.940615/full 
+https://www.practicalclinicalskills.com/korotkoff-sounds 
+
+Cardiac Cycle
+https://library.med.utah.edu/kw/pharm/hyperheart/#animation_container 
+
+Pulse Transit Time
+https://arxiv.org/pdf/1812.00544.pdf 
+https://core.ac.uk/download/pdf/157871106.pdf
+https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=7273864
+https://www.nature.com/articles/s41440-022-00899-z 
+
+Elasticity of Aortic Tissue
+https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6745291/#:~:text=Because%20the%20aorta%20is%20subjected,organs%20throughout%20the%20cardiac%20cycle. 
+
+As far as possible this dissertation is intended as a genuine simulation of a real scientific research activity. There will be "advisors" or "facilitators", which is to say, we will present the design challenge and give you some introduction to the facilities available to you. After that, we will not intervene, except when asked. 
